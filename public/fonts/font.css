@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'k010';
+	src: url('./k010.eot');
+	src: local('k010'), url('./k010.woff') format('woff'), url('./k010.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_8705">Text with this font applied</p> */
+.fontsforweb_fontid_8705 {
+	font-family: 'k010' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

@@ -1,0 +1,413 @@
+@media (min-width: 768px) and (max-width: 992px) {
+	.login-form-area {
+		padding: 50px;
+	}
+	.performance-review-area {
+	    padding: 0 30px;
+	}
+	.phc-ranking-title {
+		font-size: 22px;
+	}
+	.phc-ranking-content {
+		font-size: 20px;
+	}
+	.internal-table-area {
+	    padding-top: 345px;
+	}
+	.table.report-card-table>tbody>tr:last-child>td {
+		font-size: 13px;
+	}
+	.table.fancy-table>tbody>tr>th+td, .table.fancy-table>tbody>tr td:first-child {
+		font-size: 13px;
+	}
+	.table.fancy-table>tbody>tr>th {
+		font-size: 13px;
+	}
+	.table.report-card-table>tbody>tr:first-child>td {
+		font-size: 13px;
+	}
+	.table.fancy-table>tbody>tr>td {
+		font-size: 14px;
+	}
+}
+@media (min-width: 569px) and (max-width: 767px) {
+	.dashboard-form .col-sm-3 {
+		width: 50%;
+		float: left;
+	}
+
+	.phc-ranking-title img {
+		max-width: 30px;
+	}
+	.phc-ranking-title {
+		font-size: 18px;
+		text-align: center;
+	}
+	.phc-ranking-content {
+	    font-size: 14px;
+	    line-height: 24px;
+	    margin: 7px 7px 0;
+	}
+	.performance-review-area {
+		padding: 20px 50px;
+	}
+	.internal-header.navbar-fixed-top {
+		position: relative;
+	}
+	/*.outer-area {
+		overflow: scroll;
+    	width: 100%;
+	}
+	.inner-area {
+		min-width: 600px;
+		padding: 5px;
+	}*/
+	.darkHeader {
+		padding-top: 0;
+		z-index: 1000;
+		background-color: transparent;
+	}
+	.internal-table-area {
+	    padding-top: 20px;
+	}
+
+	/*responsive-table*/
+	.table.report-card-table {
+		display: none;
+	}
+	.table.fancy-table>tbody>tr {
+		border-bottom: solid 1px #ccc;
+	}
+	.table.fancy-table>tbody>tr:last-child {
+		border:none;
+	}
+	.table.fancy-table {
+		border-radius: 5px;
+	}
+	.table.fancy-table>tbody>tr:first-child:before {
+		content: attr(data-title-attribute);
+		background-color:#69b0e1;
+		text-align:center;
+		display:block;
+		width:100%;
+		padding:5px 10px;
+		color:#ffffff;
+	}
+	 .table.fancy-table>tbody>tr>th+td:after {
+		content:"MOIC Name: Dr. Rekha";
+		background-color:#69b0e1;
+		text-align:center;
+		display:block;
+		width:calc(100% + 20px);
+		padding:5px 10px;
+		color:#ffffff;
+		margin:10px -10px -10px;
+	}
+	.table.fancy-table>tbody>tr>td:nth-last-child(4):after {
+		content:"Best Performing PHC";
+		background-color:#c7c7c7;
+		text-align:center;
+		display:block;
+		width:calc(100% + 20px);
+		padding:5px 10px;
+		color:#2e3558;
+		margin:10px -10px -10px;
+	}
+	.table.fancy-table>tbody>tr>th{
+		display: block;
+		width: 100%;
+		border-radius: 0;
+    	text-align: right;
+    	padding: 8px 20px;
+	}
+	.table.fancy-table>tbody>tr>th+td, .table.fancy-table>tbody>tr td:first-child {
+		text-align: right;
+	}
+	.table.fancy-table>tbody>tr>th:before {
+		content: attr(data-title-attribute);
+		float: left;
+	}
+	.table.fancy-table>tbody>tr>td:before {
+		content: attr(data-title-attribute);
+		float: left;
+	}
+	.table.fancy-table>tbody>tr>td, .table.fancy-table>tbody>tr>th+td {
+		display: block;
+		width: 100%;
+		text-align: right;
+	}
+	.table.fancy-table>tbody>tr>td:first-child:before{
+		content:"Metric";
+	}
+	.table.fancy-table>tbody>tr>td:nth-child(2):before{
+		content:"Max score that can be achieved";
+	}
+	.table.fancy-table>tbody>tr>td:nth-child(3):before{
+		content:"Score achieved";
+	}
+	.table.fancy-table>tbody>tr>td:nth-child(4):before{
+		content:"Target";
+	}
+	.table.fancy-table>tbody>tr>td:nth-child(5):before{
+		content:"May'18 Performance";
+	}
+	.table.fancy-table>tbody>tr>td:nth-child(6):before{
+		content:"In the block";
+	}
+	.table.fancy-table>tbody>tr>td:nth-child(7):before{
+		content:"In Alwar";
+	}
+	.table.fancy-table>tbody>tr>td:nth-child(8):before{
+		content:"In Rajasthan";
+	}
+
+	.table.fancy-table>tbody>tr>th:first-child:before{
+		content:"Program";
+	}
+	.table.fancy-table>tbody>tr>th+td:before{
+		content:"Metric" !important;
+	}
+	.table.fancy-table>tbody>tr>th+td+td:before{
+		content:"Max score that can be achieved" !important;
+	}
+	.table.fancy-table>tbody>tr>th+td+td+td:before{
+		content:"Score achieved" !important;
+	}
+	.table.fancy-table>tbody>tr>th+td+td+td+td:before{
+		content:"Target" !important;
+	}
+	.table.fancy-table>tbody>tr>th+td+td+td+td+td:before{
+		content:"May'18 Performance" !important;
+	}
+	.table.fancy-table>tbody>tr>th+td+td+td+td+td+td:before{
+		content:"In the block" !important;
+	}
+	.table.fancy-table>tbody>tr>th+td+td+td+td+td+td+td:before{
+		content:"In Alwar" !important;
+	}
+	.table.fancy-table>tbody>tr>th+td+td+td+td+td+td+td+td:before{
+		content:"In Rajasthan" !important;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 568px) {
+	.login-lhs {
+		padding: 10px;
+	}
+	.welcome-msg {
+		margin: 15px;
+	}
+	.login-form-area {
+		padding: 30px;
+	}
+
+	/*PHC PAGE*/
+	.pull-up {
+	    margin-top: 30px;
+	}
+	.reports-area .col-md-4.text-center li {
+		display: block;
+	}
+	.internal-header.navbar-fixed-top {
+		position: relative;
+	}
+
+	.internal-header h4 {
+		font-size: 15px;
+	}
+	.internal-header h4 span {
+		font-size: 15px;
+    	margin-top: 5px;
+	}
+	.phc-ranking-title img {
+		max-width: 30px;
+	}
+	.phc-ranking-title {
+		font-size: 18px;
+		text-align: center;
+		display: block;
+	}
+	.phc-ranking-content {
+	    font-size: 14px;
+	    line-height: 24px;
+	    margin: 7px 7px 0;
+	}
+	.performance-review-area {
+		padding: 20px;
+		text-align: center;
+	}
+	/*.outer-area {
+		overflow: scroll;
+    	width: 100%;
+	}
+	.inner-area {
+		min-width: 900px;
+		padding: 5px;
+	}*/
+	.table.report-card-table>tbody>tr:first-child>td {
+		font-size: 13px;
+	}
+	.table.report-card-table>tbody>tr:last-child>td {
+		font-size: 12px;
+	}
+	.table.fancy-table>tbody>tr>th+td, .table.fancy-table>tbody>tr td:first-child {
+		font-size: 12px;
+	}
+	.table.fancy-table>tbody>tr>th {
+		font-size: 12px;
+	}
+	.table.fancy-table>tbody>tr>td {
+		font-size: 14px;
+	}
+	.internal-table-area {
+	    padding-top: 10px;
+	}
+	.reports-area.navbar-fixed-top {
+		margin-bottom: 20px;
+		position: relative;
+		padding-top: 0px;
+	}
+	
+	.reports-area.navbar-fixed-top .container {
+		padding-right: 0px;
+    	padding-left: 0px;
+	}
+	.darkHeader {
+		padding-top: 0;
+		z-index: 1000;
+		background-color: transparent;
+	}
+
+	/*responsive-table*/
+	.table.report-card-table {
+		display: none;
+	}
+	.table.fancy-table>tbody>tr {
+		border-bottom: solid 1px #ccc;
+	}
+	.table.fancy-table>tbody>tr:last-child {
+		border:none;
+	}
+	.table.fancy-table {
+		border-radius: 5px;
+	}
+	.table.fancy-table>tbody>tr:first-child:before {
+		content: attr(data-title-attribute);
+		background-color:#69b0e1;
+		text-align:center;
+		display:block;
+		width:100%;
+		padding:5px 10px;
+		color:#ffffff;
+	}
+	 .table.fancy-table>tbody>tr>th+td:after {
+		content:"MOIC Name: Dr. Rekha";
+		background-color:#69b0e1;
+		text-align:center;
+		display:block;
+		width:calc(100% + 20px);
+		padding:5px 10px;
+		color:#ffffff;
+		margin:10px -10px -10px;
+	}
+	.table.fancy-table>tbody>tr>td:nth-last-child(4):after {
+		content:"Best Performing PHC";
+		background-color:#c7c7c7;
+		text-align:center;
+		display:block;
+		width:calc(100% + 20px);
+		padding:5px 10px;
+		color:#2e3558;
+		margin:10px -10px -10px;
+	}
+	.table.fancy-table>tbody>tr>th{
+		display: block;
+		width: 100%;
+		border-radius: 0;
+    	text-align: right;
+    	padding: 8px 20px;
+	}
+	.table.fancy-table>tbody>tr>th+td, .table.fancy-table>tbody>tr td:first-child {
+		text-align: right;
+	}
+	.table.fancy-table>tbody>tr>th:before {
+		content: attr(data-title-attribute);
+		float: left;
+	}
+	.table.fancy-table>tbody>tr>td:before {
+		content: attr(data-title-attribute);
+		float: left;
+	}
+	.table.fancy-table>tbody>tr>td, .table.fancy-table>tbody>tr>th+td {
+		display: block;
+		width: 100%;
+		text-align: right;
+	}
+	.table.fancy-table>tbody>tr>td:first-child:before{
+		content:"Metric";
+	}
+	.table.fancy-table>tbody>tr>td:nth-child(2):before{
+		content:"Max score that can be achieved";
+	}
+	.table.fancy-table>tbody>tr>td:nth-child(3):before{
+		content:"Score achieved";
+	}
+	.table.fancy-table>tbody>tr>td:nth-child(4):before{
+		content:"Target";
+	}
+	.table.fancy-table>tbody>tr>td:nth-child(5):before{
+		content:"May'18 Performance";
+	}
+	.table.fancy-table>tbody>tr>td:nth-child(6):before{
+		content:"In the block";
+	}
+	.table.fancy-table>tbody>tr>td:nth-child(7):before{
+		content:"In Alwar";
+	}
+	.table.fancy-table>tbody>tr>td:nth-child(8):before{
+		content:"In Rajasthan";
+	}
+
+	.table.fancy-table>tbody>tr>th:first-child:before{
+		content:"Program";
+	}
+	.table.fancy-table>tbody>tr>th+td:before{
+		content:"Metric" !important;
+	}
+	.table.fancy-table>tbody>tr>th+td+td:before{
+		content:"Max score that can be achieved" !important;
+	}
+	.table.fancy-table>tbody>tr>th+td+td+td:before{
+		content:"Score achieved" !important;
+	}
+	.table.fancy-table>tbody>tr>th+td+td+td+td:before{
+		content:"Target" !important;
+	}
+	.table.fancy-table>tbody>tr>th+td+td+td+td+td:before{
+		content:"May'18 Performance" !important;
+	}
+	.table.fancy-table>tbody>tr>th+td+td+td+td+td+td:before{
+		content:"In the block" !important;
+	}
+	.table.fancy-table>tbody>tr>th+td+td+td+td+td+td+td:before{
+		content:"In Alwar" !important;
+	}
+	.table.fancy-table>tbody>tr>th+td+td+td+td+td+td+td+td:before{
+		content:"In Rajasthan" !important;
+	}
+
+
+	/*pdf css*/
+	.responsive-box {
+		width: 100%;
+	}
+	.d-block {
+		display: block;
+		text-align: center;
+	}
+	.row-reverse {
+		display: flex;
+    	flex-direction: column-reverse;
+	}
+}
+

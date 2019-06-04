@@ -1,0 +1,47 @@
+{
+    "name": "anam/phantommagick",
+    "description": "PhantomMagick provides a simple API to ease the process of converting HTML to PDF or images",
+    "keywords": [
+        "Pdf",
+        "Html to pdf",
+        "html to image",
+        "Html 2 pdf",
+        "Html 2 jpg",
+        "html to png",
+        "Screen capture",
+        "invoice",
+        "Laravel pdf",
+        "Laravel",
+        "Phantomjs",
+        "pdf converter",
+        "image converter",
+        "converter",
+        "Phantom"
+    ],
+    "homepage": "https://github.com/anam-hossain/phantommagick",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anam hossain",
+            "email": "enam33@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "league/flysystem": "~1.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9",
+        "phpunit/phpunit": "~4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anam\\PhantomMagick\\" : "src/" 
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Anam\\PhantomMagick\\Test\\": "tests"
+        }
+    }
+}

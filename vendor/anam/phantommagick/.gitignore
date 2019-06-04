@@ -1,0 +1,5 @@
+.editorconfig
+.env.php
+/build
+/vendor
+/bin
